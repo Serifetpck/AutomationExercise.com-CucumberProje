@@ -142,7 +142,7 @@ public class OdemeSırasındaKaydolma {
     @And("Başarı mesajını doğrulayın {string}")
     public void başarıMesajınıDoğrulayınSiparişinizBaşarıylaVerildi(String mesaj) {
       String expectedResult="Congratulations! Your order has been confirmed!";
-      ReusableMethods.waitForVisibility(cartPage.siparişOnaylamaMesaji,20);
+      ReusableMethods.waitForVisibility(cartPage.siparişOnaylamaMesaji,20);git commit -m "first commit"git commit -m "first commit"
 
       Assert.assertTrue(cartPage.siparişOnaylamaMesaji.isDisplayed());
 
